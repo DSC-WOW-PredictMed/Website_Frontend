@@ -1,0 +1,86 @@
+.header-nav{
+    background: transparent !important;
+    transition: all 0.5s ease;
+    .brand-name{
+        color: whitesmoke;
+        font-size: xx-large;
+        font-family: 'Pacifico', cursive !important;
+        transition: all 0.5s ease;
+        &:hover{
+            color: #00DDFF !important;
+            transition: color 0.3s ease-in-out;
+        }
+        &:focus{
+            color: white !important;
+        }
+    }
+    .navbar-toggler{
+        border-color: #ffff;
+        transition: all 0.5s ease;
+        &:focus{
+            outline: none;
+        }
+        &-icon{
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+        }
+    }
+    .nav-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white !important;
+        font-size: 17px;
+        transition: all 0.5s ease;
+        &:hover,&:focus{
+            color: #00DDFF !important;
+            transition: color 0.3s ease-in-out;
+        }
+    }
+    .button{
+        color:#00DDFF;
+        border-color: #00DDFF;
+        transition: all 0.5s ease;
+        &:hover,&:focus,&:active{
+            outline:none !important;
+            box-shadow: none !important;
+            background-color: #67d2e2 !important;
+            color:#fff !important;
+            border-color: #319aab !important;
+            transition: all 0.5s ease;
+        }
+    }
+}
+
+.sticky{
+    background-color: white !important;
+    padding-top:3px;
+    padding-bottom:3px;
+    transition: all 0.5s ease;
+    .brand-name,.nav-link{
+        color: black !important;
+        transition: all 0.5s ease;
+        &:hover{
+            color: #00DDFF !important;
+            transition: color 0.3s ease;
+        }
+    }
+    .navbar-toggler{
+        border-color: #000;
+        transition: all 0.5s ease;
+        &-icon{
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+        }
+    }
+    .nav-link{
+        &:hover{
+            background-color: rgba(0,0,0,0.1);
+            transition: all 0.5s ease;
+        }
+        &:nth-last-child(1):hover{
+            background-color: white !important;
+            transition: all 0.5s ease;
+        }
+    }
+}
+
+
