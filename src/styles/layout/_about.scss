@@ -1,0 +1,15 @@
+#about{
+    background: url(../../assets/img/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .inner-section{
+        img{
+            width: 200px;
+            height: auto;
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
