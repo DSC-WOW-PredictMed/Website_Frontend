@@ -21,7 +21,7 @@ const Contact = () => {
               </a>
             </section>
           </Fade>
-          <p className="footer">Designed & Built by Team Among Us</p>
+          <p className="footer">Designed & Built by Team Neutrinos💓</p>
         </div>
       </div>
     </div>
